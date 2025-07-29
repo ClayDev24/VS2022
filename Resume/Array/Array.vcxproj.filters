@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Vetores">
+      <UniqueIdentifier>{926a9165-5c10-464a-afe6-03f9359ab898}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\2_Standard">
+      <UniqueIdentifier>{b9b1c793-f1f7-4136-91fb-4311c508795c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\1_Convencional">
+      <UniqueIdentifier>{4015a461-0ceb-4645-af40-7fa3b296f528}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="function_arguments.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="3D_estatico.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="2D_estatico.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="2D_dinamico.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="3D_dinamico.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="address.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pointers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="_string.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="comparison.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="_2dynamic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="_Resume.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="_TEMPLATES.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vetor.h">
+      <Filter>Header Files\Vetores</Filter>
+    </ClInclude>
+    <ClInclude Include="_init2D.h">
+      <Filter>Header Files\1_Convencional</Filter>
+    </ClInclude>
+    <ClInclude Include="_init1D.h">
+      <Filter>Header Files\1_Convencional</Filter>
+    </ClInclude>
+    <ClInclude Include="_init1D_std.h">
+      <Filter>Header Files\2_Standard</Filter>
+    </ClInclude>
+    <ClInclude Include="_init2D_STD.h">
+      <Filter>Header Files\2_Standard</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
