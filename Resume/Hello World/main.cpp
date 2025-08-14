@@ -3,7 +3,7 @@
 
 int main() {
 	// Esta linha exibe "Hello, World!" no console.
-	std::cout << "Hello, World!" << std::endl;
+	std::cout << "Hello, World!" << "\n";
 
 	std::cout << "\n\n\n";
 	// Test memory leaks:
