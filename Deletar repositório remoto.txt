@@ -1,0 +1,11 @@
+# Listar repositório remoto:
+gh repo list
+
+# Ativar autenticação com permissão de administrador. Apenas uma vez (para poder deletar)
+gh auth refresh -h github.com -s delete_repo
+
+# Comando para deletar:
+gh repo delete ClayDev24/NomeDoRepo
+
+# Comando para deletar sem precisar confirmar:
+gh repo delete ClayDev24/NomeDoRepo --yes

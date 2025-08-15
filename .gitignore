@@ -73,3 +73,6 @@ TestResults/
 *.swp
 *.swo
 *.tmp
+/Resume/_initializer_list/Debug/main.obj
+/Resume/_initializer_list/Debug
+/Resume/_map/Debug

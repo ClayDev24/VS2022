@@ -1,0 +1,115 @@
+Resumo Rápido do Processo Git + GitHub
+1. Entrar na pasta do projeto e abrir Git Bash
+
+cd /caminho/para/seu/projeto
+2. Inicializar repositório local
+
+git init
+3. Adicionar arquivos (exemplo para .cpp e .h)
+
+find . -name "*.cpp" -print0 | xargs -0 git add
+find . -name "*.h" -print0 | xargs -0 git add
+ou para adicionar tudo:
+
+git add .
+4. Fazer o commit inicial
+
+git commit -m "Commit inicial"
+5. Criar repositório remoto no GitHub e enviar
+Se já tem o GitHub CLI instalado e autenticado:
+
+gh repo create NomeDoRepo --public --source=. --remote=origin --push
+Se preferir criar manual no site, depois configure remoto e envie:
+
+git remote add origin git@github.com:SeuUsuario/NomeDoRepo.git
+git branch -M main
+git push -u origin main
+6. Para listar arquivos staged
+
+git status
+ou só os adicionados:
+
+git diff --cached --name-only
+7. Para atualizar (adicionar + commit + push) em outras ocasiões
+
+git add .
+git commit -m "Sua mensagem"
+git push
+Se precisar, posso ajudar com scripts automatizados, dicas de uso do gh, ou outros comandos! Quer?
+
+########<<__CRIAR SCRIPT__>>########
+
+-Inicializar o repositório local (se não estiver)
+-Adicionar todos arquivos .cpp e .h (mesmo com espaços no caminho)
+-Fazer commit inicial (se ainda não fez)
+-Criar repositório remoto no GitHub usando gh
+-Fazer o push inicial
+
+Script: git_setup.sh
+-------X--------
+#!/bin/bash
+
+# 1. Inicializa git se não existir
+if [ ! -d ".git" ]; then
+  echo "Inicializando repositório git local..."
+  git init
+else
+  echo "Repositório git já inicializado."
+fi
+
+# 2. Adiciona arquivos .cpp e .h (com cuidado para espaços)
+echo "Adicionando arquivos .cpp e .h..."
+find . -name "*.cpp" -print0 | xargs -0 git add
+find . -name "*.h" -print0 | xargs -0 git add
+
+# 3. Commit inicial se não existir commit
+if git rev-parse HEAD >/dev/null 2>&1; then
+  echo "Commit já existe, pulando commit inicial."
+else
+  echo "Fazendo commit inicial..."
+  git commit -m "Commit inicial"
+fi
+
+# 4. Cria repositório remoto no GitHub e faz push inicial
+echo "Criando repositório remoto no GitHub e fazendo push..."
+gh repo create "$(basename "$PWD")" --public --source=. --remote=origin --push --confirm
+-------X--------
+Como usar:
+	-Salve esse script com o nome git_setup.sh dentro da pasta do seu projeto.
+	-Abra o Git Bash na pasta do projeto.
+	-Dê permissão para executar:
+	chmod +x git_setup.sh
+Execute:
+	./git_setup.sh
+
+Se quiser, posso criar uma versão .bat para rodar no cmd/PowerShell do Windows também. Quer?
+
+Você disse:
+Este script procura os arquivos nos subdiretórios também?
+
+O comando find . -name "*.cpp" procura recursivamente em todos os subdiretórios da pasta (mesmo nomes com espaço) atual por arquivos .cpp.
+O mesmo vale para find . -name "*.h".
+
+Dá pra modificar o script para incluir outras extensões, ignorar alguma pasta, ou qualquer ajuste que preferir. 
+Ele cria o repositório remoto usando o comando gh repo create!
+
+gh repo create "$(basename "$PWD")" --public --source=. --remote=origin --push --confirm
+usa $(basename "$PWD") para definir o nome do repositório remoto — ou seja, o nome da pasta atual onde você está rodando o script.
+
+Exemplo
+Se sua pasta local se chama:
+
+/x/CODES/Languages/CPP/Projects/VS2013
+O repositório remoto criado será:
+
+https://github.com/SeuUsuario/VS2013
+ou usando SSH:
+
+git@github.com:SeuUsuario/VS2013.git
+Se quiser, posso ajudar a adaptar o script para:
+
+Nome fixo (não usar nome da pasta)
+
+Criar repositório privado
+
+Adicionar descrição, licença, README, etc.

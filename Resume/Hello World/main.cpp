@@ -7,7 +7,7 @@ int main() {
 
 	std::cout << "\n\n\n";
 	// Test memory leaks:
-	int *i = new int(33);
+	int* i = new int(33);
 	system("pause");
 	return 0;
 }
