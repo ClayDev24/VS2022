@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.34031.82
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36408.4 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Resume", "Resume\Resume.vcxproj", "{4E7A3B3F-A494-48F3-9923-99A7C98FBBC3}"
 EndProject
@@ -66,6 +66,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chesire Cat", "Chesire Cat\Chesire Cat.vcxproj", "{569541D1-5FFD-4910-A65E-6A3A2730B0C8}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Copy Constructor", "Copy Constructor\Copy Constructor.vcxproj", "{7E981114-1C5D-4D7A-826B-0F2220DF3F5B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Accessors and Mutators", "Accessors and Mutators\Accessors and Mutators.vcxproj", "{41C2CC16-D4B9-42C8-AD18-529536B2B618}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -331,6 +333,14 @@ Global
 		{7E981114-1C5D-4D7A-826B-0F2220DF3F5B}.Release|x64.Build.0 = Release|x64
 		{7E981114-1C5D-4D7A-826B-0F2220DF3F5B}.Release|x86.ActiveCfg = Release|Win32
 		{7E981114-1C5D-4D7A-826B-0F2220DF3F5B}.Release|x86.Build.0 = Release|Win32
+		{41C2CC16-D4B9-42C8-AD18-529536B2B618}.Debug|x64.ActiveCfg = Debug|x64
+		{41C2CC16-D4B9-42C8-AD18-529536B2B618}.Debug|x64.Build.0 = Debug|x64
+		{41C2CC16-D4B9-42C8-AD18-529536B2B618}.Debug|x86.ActiveCfg = Debug|Win32
+		{41C2CC16-D4B9-42C8-AD18-529536B2B618}.Debug|x86.Build.0 = Debug|Win32
+		{41C2CC16-D4B9-42C8-AD18-529536B2B618}.Release|x64.ActiveCfg = Release|x64
+		{41C2CC16-D4B9-42C8-AD18-529536B2B618}.Release|x64.Build.0 = Release|x64
+		{41C2CC16-D4B9-42C8-AD18-529536B2B618}.Release|x86.ActiveCfg = Release|Win32
+		{41C2CC16-D4B9-42C8-AD18-529536B2B618}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
