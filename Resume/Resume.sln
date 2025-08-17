@@ -81,6 +81,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EnumHack", "EnumHack\EnumHa
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ExeSize", "ExeSize\ExeSize.vcxproj", "{AF7D2F33-F0CF-42B2-8F38-CDCC16EB723F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Float Point Precision", "Float Point Precision\Float Point Precision.vcxproj", "{8B1ED4C1-58BB-454E-880B-9B8C0F02A623}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -401,6 +403,14 @@ Global
 		{AF7D2F33-F0CF-42B2-8F38-CDCC16EB723F}.Release|x64.Build.0 = Release|x64
 		{AF7D2F33-F0CF-42B2-8F38-CDCC16EB723F}.Release|x86.ActiveCfg = Release|Win32
 		{AF7D2F33-F0CF-42B2-8F38-CDCC16EB723F}.Release|x86.Build.0 = Release|Win32
+		{8B1ED4C1-58BB-454E-880B-9B8C0F02A623}.Debug|x64.ActiveCfg = Debug|x64
+		{8B1ED4C1-58BB-454E-880B-9B8C0F02A623}.Debug|x64.Build.0 = Debug|x64
+		{8B1ED4C1-58BB-454E-880B-9B8C0F02A623}.Debug|x86.ActiveCfg = Debug|Win32
+		{8B1ED4C1-58BB-454E-880B-9B8C0F02A623}.Debug|x86.Build.0 = Debug|Win32
+		{8B1ED4C1-58BB-454E-880B-9B8C0F02A623}.Release|x64.ActiveCfg = Release|x64
+		{8B1ED4C1-58BB-454E-880B-9B8C0F02A623}.Release|x64.Build.0 = Release|x64
+		{8B1ED4C1-58BB-454E-880B-9B8C0F02A623}.Release|x86.ActiveCfg = Release|Win32
+		{8B1ED4C1-58BB-454E-880B-9B8C0F02A623}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
