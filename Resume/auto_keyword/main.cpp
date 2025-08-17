@@ -3,7 +3,7 @@
 
 int main() {
 
-	_auto_keywordUsage();
+	resume::_auto_keywordUsage();
 
 	std::cout << "\n\n\n";
 	// Test memory leaks:
