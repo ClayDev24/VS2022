@@ -101,6 +101,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Invariant Violation", "Inva
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IOFormatFlags", "IOFormatFlags\IOFormatFlags.vcxproj", "{0F794738-FDBC-4E14-8395-9FF8BD23A7BC}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Makefile", "Makefile\Makefile.vcxproj", "{CB349A05-F8B1-4E93-9449-322708959567}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -501,6 +503,14 @@ Global
 		{0F794738-FDBC-4E14-8395-9FF8BD23A7BC}.Release|x64.Build.0 = Release|x64
 		{0F794738-FDBC-4E14-8395-9FF8BD23A7BC}.Release|x86.ActiveCfg = Release|Win32
 		{0F794738-FDBC-4E14-8395-9FF8BD23A7BC}.Release|x86.Build.0 = Release|Win32
+		{CB349A05-F8B1-4E93-9449-322708959567}.Debug|x64.ActiveCfg = Debug|x64
+		{CB349A05-F8B1-4E93-9449-322708959567}.Debug|x64.Build.0 = Debug|x64
+		{CB349A05-F8B1-4E93-9449-322708959567}.Debug|x86.ActiveCfg = Debug|Win32
+		{CB349A05-F8B1-4E93-9449-322708959567}.Debug|x86.Build.0 = Debug|Win32
+		{CB349A05-F8B1-4E93-9449-322708959567}.Release|x64.ActiveCfg = Release|x64
+		{CB349A05-F8B1-4E93-9449-322708959567}.Release|x64.Build.0 = Release|x64
+		{CB349A05-F8B1-4E93-9449-322708959567}.Release|x86.ActiveCfg = Release|Win32
+		{CB349A05-F8B1-4E93-9449-322708959567}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
