@@ -113,3 +113,4 @@ TestResults/
 *.o
 /Resume/Memory Addressing/Debug
 /Resume/Mutable/Debug
+/Resume/Namespace/Debug
