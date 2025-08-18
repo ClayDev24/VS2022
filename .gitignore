@@ -110,3 +110,5 @@ TestResults/
 /Resume/Invariant Violation/Debug
 /Resume/IOFormatFlags/Debug
 /Resume/Makefile/Debug
+*.o
+/Resume/Memory Addressing/Debug
