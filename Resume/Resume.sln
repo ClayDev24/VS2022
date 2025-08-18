@@ -113,6 +113,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "New and Delete", "New and D
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Object Slicing", "Object Slicing\Object Slicing.vcxproj", "{6779B129-3119-455A-AE14-7EDD27583A26}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Operator Overloading", "Operator Overloading\Operator Overloading.vcxproj", "{628B2639-DC76-45E2-94E6-EB5A0286133F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -561,6 +563,14 @@ Global
 		{6779B129-3119-455A-AE14-7EDD27583A26}.Release|x64.Build.0 = Release|x64
 		{6779B129-3119-455A-AE14-7EDD27583A26}.Release|x86.ActiveCfg = Release|Win32
 		{6779B129-3119-455A-AE14-7EDD27583A26}.Release|x86.Build.0 = Release|Win32
+		{628B2639-DC76-45E2-94E6-EB5A0286133F}.Debug|x64.ActiveCfg = Debug|x64
+		{628B2639-DC76-45E2-94E6-EB5A0286133F}.Debug|x64.Build.0 = Debug|x64
+		{628B2639-DC76-45E2-94E6-EB5A0286133F}.Debug|x86.ActiveCfg = Debug|Win32
+		{628B2639-DC76-45E2-94E6-EB5A0286133F}.Debug|x86.Build.0 = Debug|Win32
+		{628B2639-DC76-45E2-94E6-EB5A0286133F}.Release|x64.ActiveCfg = Release|x64
+		{628B2639-DC76-45E2-94E6-EB5A0286133F}.Release|x64.Build.0 = Release|x64
+		{628B2639-DC76-45E2-94E6-EB5A0286133F}.Release|x86.ActiveCfg = Release|Win32
+		{628B2639-DC76-45E2-94E6-EB5A0286133F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
