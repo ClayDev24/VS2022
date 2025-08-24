@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{8b1ed4c1-58bb-454e-880b-9b8c0f02a623}</ProjectGuid>
+    <ProjectGuid>{10b2c064-0269-4ea4-a884-f6847dae4647}</ProjectGuid>
     <RootNamespace>FloatPointPrecision</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>

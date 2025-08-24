@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{6905cf72-7eaf-481c-87bb-5617c961d72c}</ProjectGuid>
+    <ProjectGuid>{052d6a56-943f-4959-9e90-78fa1ca53f44}</ProjectGuid>
     <RootNamespace>Functional</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -123,6 +123,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
     <ClInclude Include="binary_function.h" />
     <ClInclude Include="binary_negate.h" />
     <ClInclude Include="bind1st.h" />
@@ -150,9 +153,6 @@
     <ClInclude Include="ptr_fun.h" />
     <ClInclude Include="unary_function.h" />
     <ClInclude Include="unary_negate.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

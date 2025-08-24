@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{4ecfef09-6231-4524-adf7-a7a502415b32}</ProjectGuid>
+    <ProjectGuid>{0657b8ea-0ea0-49a7-b7ab-d6e829c8326d}</ProjectGuid>
     <RootNamespace>Stash</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>

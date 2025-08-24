@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{0f0013f5-5de7-43f9-8413-0543239a5229}</ProjectGuid>
+    <ProjectGuid>{c075f7d4-76fd-4610-a2ab-d1269f6effea}</ProjectGuid>
     <RootNamespace>FunctionPointer</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>

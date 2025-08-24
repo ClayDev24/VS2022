@@ -14,7 +14,10 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
     <Filter Include="Header Files\DOS">
-      <UniqueIdentifier>{454ba0c5-5f02-4b4a-9348-5aba61d765e2}</UniqueIdentifier>
+      <UniqueIdentifier>{ec4f47b6-74e5-4f54-89db-132e9f36041d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DOS">
+      <UniqueIdentifier>{ab7efd95-ca5f-4b8d-be60-7231f26bd40c}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -47,17 +50,17 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Stack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="Stack2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Stack3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Stack.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="DOS\StackDOS.cpp">
-      <Filter>Header Files\DOS</Filter>
+      <Filter>Source Files\DOS</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

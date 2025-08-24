@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{628b2639-dc76-45e2-94e6-eb5a0286133f}</ProjectGuid>
+    <ProjectGuid>{3bb2b849-21eb-4751-be2e-f21decaa62c5}</ProjectGuid>
     <RootNamespace>OperatorOverloading</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>

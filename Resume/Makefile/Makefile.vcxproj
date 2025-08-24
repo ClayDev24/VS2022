@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{cb349a05-f8b1-4e93-9449-322708959567}</ProjectGuid>
+    <ProjectGuid>{570c39fd-5c40-4309-a518-8bb4920d966c}</ProjectGuid>
     <RootNamespace>Makefile</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -132,6 +132,9 @@
     <ClCompile Include="guess.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="return.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Makefile" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

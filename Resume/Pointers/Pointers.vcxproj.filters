@@ -18,10 +18,10 @@
     <ClInclude Include="arithmetic.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="pointer_to_member_function.h">
+    <ClInclude Include="void_pointer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="void_pointer.h">
+    <ClInclude Include="pointer_to_member_function.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

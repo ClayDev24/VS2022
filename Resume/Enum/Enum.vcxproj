@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{b5163e66-ddb4-4640-b653-ae5d56839ab1}</ProjectGuid>
+    <ProjectGuid>{eaaf5050-49a9-4793-9544-b99e3da97840}</ProjectGuid>
     <RootNamespace>Enum</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>

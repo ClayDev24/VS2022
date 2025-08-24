@@ -38,10 +38,10 @@
     <ClCompile Include="CStash.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Stash.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="Stash.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Stash2.cpp">
